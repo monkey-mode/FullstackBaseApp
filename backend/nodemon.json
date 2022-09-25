@@ -1,0 +1,18 @@
+{
+    "restartable": "rs",
+    "ignore": [
+        ".git",
+        "node_modules/**/node_modules",
+        "dist"
+    ],
+    "verbose": true,
+    "execMap": {
+        "ts": "ts-node"
+    },
+    "runOnChangeOnly": false,
+    "watch": [
+        "src/**/*.ts",
+        "src/**/*.js"
+    ],
+    "ext": "js,ts,json,graphql"
+}
